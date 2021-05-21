@@ -19,6 +19,10 @@ public class Conta3 {
 		contadorContas++;
 	}
 	
+	public Conta3() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public int getcontadorContas() {
 		return Conta3.contadorContas;
 	}
@@ -37,8 +41,24 @@ public class Conta3 {
 	public int getNumero() {
 		return numero;
 	}
-
-	void depositar(double valor) {
-		saldo = saldo + valor;
+	
+	public double getSaldo() {
+		return saldo;
 	}
+	
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+	
+	public void setNumero(int numero) {
+		this.numero = numero; 
+	}
+
+	public void depositar(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+
 }
