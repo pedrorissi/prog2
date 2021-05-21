@@ -6,10 +6,8 @@ public class ControleSalarial {
 	public void setTotalSalarios(Funcionario funcionario) {
 		this.totalSalarios += funcionario.getSalario();
 	}
-	/**/
 	
 	public double getTotalSalarios() {
-		return this.totalSalarios; 
+		return this.totalSalarios;
 	}
-	
 }

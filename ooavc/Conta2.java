@@ -1,11 +1,20 @@
 package ooavc;
 
-public class Conta {
+public class Conta2 {
 	
 	int numero;
-	String nome;
+	//String nome;
+	Cliente cliente;
+	//Cliente cliente = new Cliente();
 	double saldo;
 	double limite;
+	
+	Conta2(int numero, Cliente cliente, double saldo, double limite){
+		this.numero = numero;
+		this.cliente = new Cliente();
+		this.saldo = saldo;
+		this.limite = limite;
+	}
 	
 	boolean sacar(double valor) {
 //		double saldoAlterado = saldo-valor;
